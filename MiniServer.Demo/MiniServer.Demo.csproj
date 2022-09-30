@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MiniHTTP.WebServer\MiniHTTP.WebServer.csproj" />
     <ProjectReference Include="..\MiniServer.HTTP\MiniServer.HTTP.csproj" />
   </ItemGroup>
 
